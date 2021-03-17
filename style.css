@@ -48,7 +48,7 @@ h1{
 }
 /* Section */
 #jumbo{
-    background-image:url('../images/bg.jpg');
+    background-image:url('bg.jpg');
     background-position:center center;
     min-height:200px;
     text-align: center; 

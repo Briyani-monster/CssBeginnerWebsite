@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    
+}
+/* Header */
+#mainHeader{
+    background:#333;
+    color:white;
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    /* padding: 100px; */
+    
+    
+}
+h1{
+    padding: 100px;
+    margin:0px;
+    text-align:center;
+    font-size: 80px;
+    line-height: 1em;
+}
+/* navbar */
+    #mainNav{
+        padding: 10px 0;
+        background: #ccc;
+     color: black;
+    }
+#mainNav ul{
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+} 
+#mainNav li{
+    display:inline;
+    padding: 5px 10px;
+
+}
+#mainNav a{
+    text-decoration:none;
+    color:black;
+    font-size:18px; ;
+}
+#mainNav li:hover{
+    background: #AAA;
+    
+}
+/* Section */
+#jumbo{
+    background-image:url('../images/bg.jpg');
+    background-position:center center;
+    min-height:200px;
+    text-align: center; 
+}
+#jumbo h1{
+    color:white;
+    font-size: 80px;
+    line-height:1em;
+}
+/* Container */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+#main{
+    float:right;
+    width:70%;
+    padding: 100px 30px;
+    box-sizing: border-box;
+}
+#sidebar{
+    float:left;
+    width:30%;
+    padding: 120px 10px;
+    border-right: 5px solid black;
+    box-sizing: border-box;
+}
+/* footer */
+#mainFooter{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding: 10px;
+}
